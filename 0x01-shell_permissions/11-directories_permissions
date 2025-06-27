@@ -1,2 +1,3 @@
 #!/bin/bash
+for d in */; do chmod a+x "$d"; done#!/bin/bash
 find . -type d -exec chmod a+x {} \;
