@@ -1,3 +1,3 @@
 #!/bin/bash
-for d in */; do chmod a+x "$d"; done#!/bin/bash
-find . -type d -exec chmod a+x {} \;
+for d in *; do [ -d "$d" ] && chmod a+x "$d"; done
+
