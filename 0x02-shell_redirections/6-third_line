@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 3 "$1" | tail -n 1
+grep "49 BC as he led his army across the Rubicon river in Northern Italy." "$1"
