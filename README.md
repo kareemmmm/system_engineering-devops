@@ -1,13 +1,14 @@
 # System Engineering & DevOps
 
-This repository contains my solutions for ALX's System Engineering and DevOps projects.
+This repository contains solutions to the ALX System Engineering & DevOps projects.
 
 ## Directories
 
-- `0x00-shell_basics` — Shell navigation and basic commands  
-- `0x01-shell_permissions` — File permissions and user/group management  
-- `0x02-shell_redirections` — Redirection, filters, and pipes  
+- `0x00-shell_basics`: Basic shell commands and navigation
+- `0x01-shell_permissions`: Managing file permissions and ownership
+- `0x02-shell_redirections`: I/O redirection and filters
 
 ## Author
 
-- Kareem Mahmoud Mohamed Mattar (@kareemmmm)
+**Kareem Mahmoud Mohamed Mattar**  
+GitHub: [@kareemmmm](https://github.com/kareemmmm)
