@@ -1,2 +1,3 @@
 #!/bin/bash
-grep -n . iacta | grep "^3:" | cut -d: -f2-
+grep '^49 BC as he led his army across the Rubicon river in Northern Italy.' iacta
+
