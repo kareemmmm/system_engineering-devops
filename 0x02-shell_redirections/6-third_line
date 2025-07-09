@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^49 BC as he led his army across the Rubicon river in Northern Italy.' iacta
+head -n 3 iacta | tail -n 1
