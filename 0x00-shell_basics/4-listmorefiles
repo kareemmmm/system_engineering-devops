@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# This script displays all files, including hidden ones, in long format
+#!/bin/bash
 ls -la

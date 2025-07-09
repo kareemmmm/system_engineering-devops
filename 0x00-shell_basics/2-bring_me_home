@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# This script changes the working directory to the user's home directory
+#!/bin/bash
 cd ~

@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# This script lists the contents of the current directory
+#!/bin/bash
 ls
