@@ -1,2 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# This script displays the current directory contents in long format
 ls -l
