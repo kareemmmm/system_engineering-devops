@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # This script displays only the part of filenames after the first dash
-for file in $(ls -1 | grep '-' | sort); do
-  echo "${file#*-}"
+
+for file in *-*; do
+  [ -f "$file" ] && echo "${file#*-}"
 done
+
