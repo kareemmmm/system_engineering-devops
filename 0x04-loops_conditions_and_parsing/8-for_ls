@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# This script lists file names in current dir, showing part after first dash
-for file in *-*; do
+# This script displays the part of filenames after the first dash
+for file in *-*
+do
   echo "${file#*-}"
 done
+
