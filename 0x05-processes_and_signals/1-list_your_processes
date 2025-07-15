@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Displays all running processes with user, start time (with seconds), and command path
-ps -eo user,lstart,cmd
+# Display all running processes in user-oriented format with hierarchy
+ps -auxf
 
