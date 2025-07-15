@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
-# This script sends SIGTERM to the '7-highlander' process without using kill
-kill "$(pgrep -f 7-highlander)"
+# This script kills the 7-highlander process using its PID
+
+pid=$(pgrep -f "./7-highlander")
+
+if [ -n "$pid" ]; then
+  kill "$pid"
+fi
+
